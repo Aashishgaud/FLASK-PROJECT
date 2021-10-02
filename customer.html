@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .box{
+             background-color: lightseagreen;
+             background-position: center;
+             background-size: 100px;
+             margin-top: 80px;
+             margin-bottom: 80px;
+             margin-left: 80px;
+             margin-right: 80px;
+             height: 300px;
+         }
+
+
+    </style>
+</head>
+<body style="background-color:lightyellow;">
+    <div class="box"> 
+    <h1 style="color:black;"><center>PLEASE REGISTOR TO LOGIN IN WEBSITE</center></h1>
+    <center>
+    <form action="/insertrecord" method="POST">
+    <table border="2">
+    <tr>
+    <th style="color:blue;">Customer id:</th>
+    <td><input type="text" name="txtcid"/></td>
+    </tr>
+    <tr>
+    <th style="color:blue;">Customer username:</th>
+    <td><input type="text" name="txtcname"/></td>
+    </tr>
+    <tr>
+    <th style="color:blue;">Customer password:</th>
+    <td><input type="password" name="txtpassword" placeholder="enter your password"/></td>
+    </tr>
+    <tr>
+    <th style="color:blue;">Customer age:</th>
+    <td><input type="text" name="txtage"/></td>
+    </tr>
+    <tr>
+    <th style="color:blue;">Customer city:</th>
+    <td><input type="text" name="txtcity"/></td>
+    </tr>
+    <tr>
+    <th style="color:blue;">Customer email:</th>
+    <td><input type="email" name="txtemail"/></td>
+    </tr>
+    <tr>
+    <th></th>
+    <td ><input type="submit" value="saverecords" style="color:red;"/></td>
+    </tr>
+    </table>
+    </form>
+</div>
+    </center>
+    </body>
+</html>

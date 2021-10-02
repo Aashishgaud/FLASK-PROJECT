@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .box{
+          background-color:lightcoral;
+          margin-top: 200px;
+          margin-bottom: 200px;
+          margin-left: 100px;
+          margin-right: 100px;
+          align-items: center;
+      }
+
+
+
+
+    </style>
+</head>
+
+    <body style="background-color:lightpink";>
+        
+        <h1 class="h1"><center>please fill below forms to registor</center></h1>
+        <div class=box>
+        <center>
+        <form action="/add" method="POST">
+        <table border="2">
+        <tr>
+        <th>username:</th>
+        <td><input type="text" name="username" placeholder="enter your username"/></td>
+        </tr>
+        <tr>
+        <th>password:</th>
+        <td><input type="password" name="password" placeholder="enter your password"/></td>
+        
+        </tr>
+        <tr>
+        <th></th>
+        <td><input type="submit" name="saverecord"/></td>
+        </tr>
+        </table>
+        </form>
+        <a href="/update" style="color:black">Forget Password</a>
+        </center>
+    </div>
+        </body>
+        
+
+</html>

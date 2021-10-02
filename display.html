@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Show All Records of customer</title>
+</head>
+<body>
+	<!--{% for i in dresult %}
+	<h1>{{i}}</h1>
+	{% endfor %}-->
+
+	<center>
+<h1>Customer's Details</h1>
+<TABLE BORDER="1">
+<thead>
+<th>custid</th>
+<th>username</th>
+<th>password</th>
+<th>age</th>
+<th>city</th>
+<th>email</th>
+</thead>
+{% for row in result %}
+            <tr>
+               <td>{{row[0]}}</td>
+               <td>{{row[1]}}</td>
+               <td>{{row[2]}}</td>
+               <td>{{row[3]}}</td>
+               <td>{{row[4]}}</td>
+               <td>{{row[5]}}</td>
+      	
+            </tr>
+         {% endfor %}
+    </table>
+    </center>
+   
+</body>
+</html>
